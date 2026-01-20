@@ -37,7 +37,7 @@ res <- lm(hangtime ~ condition, data = df)
 res_sum <- summary(res)
 tab_coef <- res_sum$coefficients
 write.csv(tab_coef, "tab_coef.csv", row.names = FALSE)
-estimand <- tab_coef["conditionnoVchalk", ]
+estimand <- round(tab_coef["conditionnoVchalk", ], 3)
 write.csv(estimand, "estimand.csv", row.names = FALSE)
 knitr::kable(res_sum$coefficients, digits = 2, caption = "Regression coefficients for planned contrasts for the effect of chalk on hangtime.")
 ```

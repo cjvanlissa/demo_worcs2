@@ -12,5 +12,5 @@ data:
     labels: value_labels_df.yml
 checksums:
   df.csv: 2f1b36c17e4596dc4cf3c464ba314d03
-  manuscript/estimand.csv: 27194c4673a90c013f1599119756130b
+  manuscript/estimand.csv: 78716b86d281cc71d27ffdbe7d8afa2d
 endpoints: manuscript/estimand.csv
