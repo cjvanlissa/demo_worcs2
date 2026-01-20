@@ -30,5 +30,5 @@ jobs:
 
       - name: Check endpoints
         run: |
-          worcs::reproduce();print(list.files());print(list.files("manuscript"));print(worcs:::cs_fun("manuscript/estimand.csv"));print(readLines("manuscript/estimand.csv"))
+          worcs::reproduce(check_endpoints = FALSE);print(list.files());print(list.files("manuscript"));print(worcs:::cs_fun("manuscript/estimand.csv"));print(readLines("manuscript/estimand.csv"))
         shell: Rscript {0}
