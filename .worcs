@@ -2,7 +2,7 @@ worcs_version: 0.1.19
 creator: cjvanlissa
 entry_point: manuscript/manuscript.Rmd
 recipe:
-  recipe: rmarkdown::render('manuscript/manuscript.Rmd')
+  recipe: rmarkdown::render('manuscript/manuscript.Rmd', clean = FALSE)
   terminal: no
 data:
   df.csv:
