@@ -4,12 +4,6 @@
 # to store the data.
 
 library(worcs)
-df <- read.csv("chalk.csv", stringsAsFactors = TRUE)
-
-# Pseudonymize data
-df[c("id", "comment")] <- NULL
-
-# Randomize DV
-df$hangtime <- sample(df$hangtime)
+df <- read.csv("chalk_li_2001.csv", stringsAsFactors = TRUE)
 
 worcs::open_data(df)

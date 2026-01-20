@@ -6,9 +6,9 @@ This manuscript uses the Workflow for Open Reproducible Code in Science
 (Van Lissa et al. 2021) to ensure reproducibility and transparency. All
 code <!--and data--> are available at <demo_worcs2>.
 
-This is an example of a non-essential citation (@ Van Lissa et al.
-2021). If you change the rendering function to `worcs::cite_essential`,
-it will be removed.
+This is an example of a non-essential citation (Van Lissa et al. 2021).
+If you change the rendering function to `worcs::cite_essential`, it will
+be removed.
 
 <!--The function below inserts a notification if the manuscript is knit using synthetic data. Make sure to insert it after load_data().-->
 
